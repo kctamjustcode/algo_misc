@@ -1,1 +1,1 @@
-Practise codes for algorithms from miscellaneous sources
+Practice codes for algorithms from miscellaneous sources
