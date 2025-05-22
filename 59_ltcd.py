@@ -2,8 +2,6 @@ n = 4
 
 
 n_matrix = [[] for _ in range(n)]
-# matrix_len = sum([len(n_matrix[i]) for i in range(n)])
-# n_matrix[0] = list(range(1, n+1))
 
 cnt = 0
 parity_cnt = 0
@@ -49,12 +47,3 @@ while last_num < n*n+1:
             cnt = 0
             left_occur += 1
             direction += 1
-
-if n % 2 == 0:
-    for i in range(n):
-        if len(n_matrix[i]) != n:
-            print('error')
-            n_matrix[i].remove(n*n+1)
-    print(n_matrix)
-else:
-    print(n_matrix)
